@@ -28,7 +28,10 @@ function Footersite(){
   
   <div className="flex-1">
     <ul className="space-y-2">
-      <li className="font-bold text-4xl">Contact us</li>
+    <li className="font-bold text-4xl">
+  <a href="/contact" className="hover:text-green-500">Contact us</a>
+</li>
+    
       <li className="font-bold">@email.com</li>
     </ul>
   </div>

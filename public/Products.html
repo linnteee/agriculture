@@ -3,22 +3,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Products Page</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <script type="module" src="/src/script.js"></script>
+    <title>products</title>
+    <script src="Products.js"></script>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body class="bg-green-100 p-10">
-    <div class="container mx-auto">
-        <h1 class="text-3xl font-bold mb-4">Items for Sale</h1>
-        <input type="text" id="search" placeholder="Search items..." class="border p-2 rounded mb-4 w-full">
-        <ul id="item-list" class="list-disc pl-5">
-            <li>Tools - $20</li>
-            <li>Seeds - $15</li>
-            <li>Garments - $30</li>
-            <li>Fertilizer - $25</li>
-        </ul>
+<body>
+
+<button id="openModal">Search Products</button>
+
+
+<div id="searchModal" class="modal hidden">
+    <div class="modal-content">
+        <span id="closeModal" class="close">&times;</span>
+        <input type="text" id="searchInput" placeholder="Search for products..." />
+        <ul id="searchResults" class="search-results"></ul>
     </div>
-    
-    <script src="script.js"></script>
+</div>
+
 </body>
 </html>
