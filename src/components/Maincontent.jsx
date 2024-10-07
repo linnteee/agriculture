@@ -1,9 +1,13 @@
 import React from "react";
+import BackgroundImg from '../assets/background.jpg'
 
 function Maincontent() {
     return (
-        <div className="relative text-center h-lvh bg-[url('./src/assets/background.jpg')] bg-cover bg-center">
-  <div className="absolute inset-0 bg-black opacity-50"></div> 
+      <div
+      className="relative text-center h-lvh bg-cover bg-center"
+      style={{ backgroundImage: `url(${BackgroundImg})` }} // Set background image using inline style
+  >
+      <div className="absolute inset-0 bg-black opacity-50"></div> 
   <div className="relative z-10">
     <h1 className="text-white font-bold text-4xl pt-44">WELCOME TO AGRO WORLD</h1>
     <p className="text-white mt-10 text-3xl font-bold">
