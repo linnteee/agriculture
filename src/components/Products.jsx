@@ -14,7 +14,7 @@ const products = [
     name: "Farm Tools Set(wheelbarrow)",
     description: "Essential tools for efficient farming.",
     price: "$50",
-    image: "/images/wheelbarrow.jpg",
+    image: "/images/wheelbarrow.jpeg",
   },
   {
     id: 3,
@@ -28,7 +28,7 @@ const products = [
     name: "Seed Packets",
     description: "A variety of high-yield seeds for your farm.",
     price: "$15",
-    image: "/images/seeds.jpg",
+    image: "/images/seeds.jpeg",
   },
 ];
 
