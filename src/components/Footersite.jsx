@@ -30,13 +30,7 @@ function Footersite() {
                 <h2 className="font-bold text-4xl mb-4">Services</h2>
                 <ul className="list-none space-y-2">
                     <li className="font-bold hover:text-green-500">
-                        <Link to="/services/service1">Service 1</Link>
-                    </li>
-                    <li className="font-bold hover:text-green-500">
-                        <Link to="/services/service2">Service 2</Link>
-                    </li>
-                    <li className="font-bold hover:text-green-500">
-                        <Link to="/services/service3">Service 3</Link>
+                        <Link to="/products">Products</Link>
                     </li>
                 </ul>
             </div>
