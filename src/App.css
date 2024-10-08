@@ -1,0 +1,13 @@
+/* Custom media queries for responsiveness */
+@media (max-width: 640px) {
+    .custom-class {
+      font-size: 12px;
+    }
+  }
+  
+  @media (min-width: 640px) {
+    .custom-class {
+      font-size: 16px;
+    }
+  }
+  
