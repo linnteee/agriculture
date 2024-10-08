@@ -11,10 +11,10 @@ const products = [
   },
   {
     id: 2,
-    name: "Farm Tools Set",
+    name: "Farm Tools Set(wheelbarrow)",
     description: "Essential tools for efficient farming.",
     price: "$50",
-    image: "/images/tools.jpg",
+    image: "/images/wheelbarrow.jpg",
   },
   {
     id: 3,
