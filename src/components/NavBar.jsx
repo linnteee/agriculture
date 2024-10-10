@@ -12,12 +12,12 @@ function NavBar() {
 
     return (
         <nav className="p-10 bg-blue-100">
-            <div className="flex items-center justify-between">
+            <div className="flex items-center justify-between items-baseline">
                 <div className="flex items-center">
                     <div className="mr-4">
                         <img src={farmerIcon} alt="Farmer Icon" />
                     </div>
-                    <h1 className="text-green-900 font-bold text-6xl font-serif">
+                    <h1 className="text-green-900 font-bold text-6xl font-serifs">
                         <Link to="/">AGRO <span className="text-green-950">WORLD</span></Link>
                     </h1>
                 </div>

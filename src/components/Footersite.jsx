@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Footersite() {
     return (
-        <footer className="bg-green-300 w-full flex flex-col md:flex-row text-white p-10">
+        <footer className="bg-green-600 w-full flex flex-col md:flex-row text-white p-10">
             <div className="flex-1 mb-6 md:mb-0">
                 <h2 className="font-bold text-4xl mb-4">Explore</h2>
                 <ul className="list-none space-y-2">

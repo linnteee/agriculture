@@ -5,28 +5,28 @@ const products = [
     id: 1,
     name: "Organic Fertilizer",
     description: "High-quality organic fertilizer for healthy plant growth.",
-    price: "$25",
+    price: "₵25",
     image: "/images/fertilizer.jpg",
   },
   {
     id: 2,
     name: "Farm Tools Set (wheelbarrow)",
     description: "Essential tools for efficient farming.",
-    price: "$50",
+    price: "₵50",
     image: "/images/wheelbarrow.jpeg",
   },
   {
     id: 3,
     name: "Irrigation System",
     description: "Efficient irrigation system for water conservation.",
-    price: "$200",
+    price: "₵200",
     image: "/images/irrigation.jpg",
   },
   {
     id: 4,
     name: "Seed Packets",
     description: "A variety of high-yield seeds for your farm.",
-    price: "$15",
+    price: "₵15",
     image: "/images/seeds.jpeg",
   },
 ];
@@ -54,7 +54,7 @@ function Products() {
           placeholder="Search products..."
           value={searchTerm}
           onChange={handleSearch}
-          className="w-full max-w-md px-4 py-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
+          className="w-full max-w-md px-4 py-2 border border-gray-500 rounded-lg focus:outline-none focus:ring-2 focus:ring-green-500"
         />
       </div>
 
